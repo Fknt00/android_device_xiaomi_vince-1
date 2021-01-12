@@ -155,10 +155,6 @@ PRODUCT_DEXPREOPT_SPEED_APPS += \
     SystemUI \
     NexusLauncherRelease
 
-# Dirac
-PRODUCT_PACKAGES += \
-	Dirac
-
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.allocator@2.0-impl \
@@ -173,7 +169,7 @@ PRODUCT_PACKAGES += \
     hwcomposer.msm8953 \
     memtrack.msm8953 \
     libdisplayconfig \
-	libvulkan \
+    libvulkan \
     liboverlay \
     libqdMetaData.system \
     libgenlock \
@@ -276,10 +272,6 @@ PRODUCT_PACKAGES += \
     android.hardware.light@2.0-impl \
     android.hardware.light@2.0-service \
     lights.msm8953
-
-# LiveDisplay
-PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.0-service.xiaomi_vince
 
 # Media
 PRODUCT_COPY_FILES += \
